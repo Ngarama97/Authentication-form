@@ -26,7 +26,7 @@
   ?>
   </p>
 
-  <form action="info.php" method="POST">
+  <form action="registrationprocess.php" method="POST">
     <input type="text" name="email" placeholder="Email" ><br>
     <input type="password" name="password" placeholder="password"><br>
 
