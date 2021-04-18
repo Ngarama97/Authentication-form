@@ -35,7 +35,6 @@ if ($errorcount > 0) {
             
             $_SESSION['error'] = "The user already exists";
             header("location:registerpage.php");
-            die();
         }
     }
 
