@@ -38,6 +38,7 @@ if ($errorcount > 0){
             $newdetails = $array_put;
             
             //replace the old password with the new password
+               $new_array = array_replace($userdetails, $newdetails);
 
 
             // update the contents in the file DB
