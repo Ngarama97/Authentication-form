@@ -38,13 +38,14 @@ if ($errorcount > 0){
             $newdetails = $array_put;
             
             //replace the old password with the new password
-               $new_array = array_replace($userdetails, $newdetails);
-
+            $new_array = array_replace($userdetails, $newdetails);
 
             // update the contents in the file DB
-                
-            print_r($userdetails); 
-            print_r($newdetails);        
+            file_put_contents("files/" .$new_array['email'] . ".json", json_encode($new_array));
+            
+            $_SESSION['message'] = "Password is reset, Login for more";
+
+            header("location: login.php");
         }
            
     }

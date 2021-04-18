@@ -12,6 +12,7 @@
 </head>
 
 <body>
+
   <h1>Welcome at Mohamed's First Page</h1>
 
   <h3>Please register or login for More!</h3>
@@ -27,6 +28,7 @@
   </p>
 
   <form action="registrationprocess.php" method="POST">
+  
     <input type="text" name="email" placeholder="Email" ><br>
     <input type="password" name="password" placeholder="password"><br>
 
