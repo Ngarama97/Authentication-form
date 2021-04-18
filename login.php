@@ -30,7 +30,7 @@
     <input type="text" name="email" placeholder="Email" ><br>
     <input type="password" name="password" placeholder="password"><br>
 
-    <button style="background-color:#dbf6e9;" type="submit" name="register">Login</button>
+    <button style="background-color:#dbf6e9;" type="submit" name="Login">Login</button>
 
     <p>
       Don't have account? <a href="registerpage.php">Sign Up!</a><br>
