@@ -24,8 +24,12 @@
   </p>
 
   <form action="resetprocess.php" method="POST">
+
     <label for="email">Please enter your email to reset password!</label><br>
     <input type="text" name="email" placeholder="Email" ><br>
+
+    <label for="password">Please enter your new password!</label><br>
+    <input type="password" name="newpassword" placeholder="New Password" ><br>
     
     <button style="background-color:#dbf6e9;" type="submit" name="reset">Reset</button>
 
